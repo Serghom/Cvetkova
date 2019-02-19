@@ -48,9 +48,9 @@
    <widget class="QPushButton" name="nextButton">
     <property name="geometry">
      <rect>
-      <x>624</x>
+      <x>484</x>
       <y>400</y>
-      <width>121</width>
+      <width>261</width>
       <height>23</height>
      </rect>
     </property>
@@ -68,7 +68,25 @@
      <height>21</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>Лекции</string>
+    </property>
+    <addaction name="testLectAction"/>
+    <addaction name="fillLectAction"/>
+   </widget>
+   <addaction name="menu"/>
   </widget>
+  <action name="testLectAction">
+   <property name="text">
+    <string>Тестовая Лекция</string>
+   </property>
+  </action>
+  <action name="fillLectAction">
+   <property name="text">
+    <string>Философия</string>
+   </property>
+  </action>
  </widget>
  <resources/>
  <connections/>
